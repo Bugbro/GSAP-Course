@@ -11,6 +11,9 @@ import {
   Home,
 } from "./pages";
 import GsapScrollBgChange from "./pages/GsapScrollBgChange";
+import GsapScrollReveal from "./pages/GsapScrollReveal";
+import GsapTextAnimate from "./pages/GsapTextAnimate";
+
 
 const App = () => {
   return (
@@ -23,8 +26,10 @@ const App = () => {
           <Route path="/gsaptimeline" element={<GsapTimeline />} />
           <Route path="/gsapstagger" element={<GsapStagger />} />
           <Route path="/gsapscrolltrigger" element={<GsapScrollTrigger />} />
-          <Route path='/gsapscrollbgchange' element={<GsapScrollBgChange/>}/>
+          <Route path='/gsapscrollbgchange' element={<GsapScrollBgChange />}/>
           <Route path="/gsaptext" element={<GsapText />} />
+          <Route path="/gsapscrollreveal" element={<GsapScrollReveal/>}/>
+          <Route path="/gsaptextanimate" element={<GsapTextAnimate/>} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>

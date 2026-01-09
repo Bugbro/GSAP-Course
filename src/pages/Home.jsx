@@ -46,6 +46,16 @@ const animations = [
     title: "GSAP BG Change",
     description: "Learn how to change bg on scroll.",
     path: "/gsapscrollbgchange"
+  },
+  {
+    title: "GSAP Scroll Reveal ",
+    description: "When scroll it reveals images left to right side.",
+    path: "/gsapscrollreveal"
+  },
+  {
+    title: "GSAP Text Animate ",
+    description: "Animate the text split text by text.",
+    path: "/gsaptextanimate"
   }
 ];
 
