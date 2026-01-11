@@ -13,6 +13,7 @@ import {
 import GsapScrollBgChange from "./pages/GsapScrollBgChange";
 import GsapScrollReveal from "./pages/GsapScrollReveal";
 import GsapTextAnimate from "./pages/GsapTextAnimate";
+import GsapCustomHook from "./pages/GsapCustomHook";
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/gsaptext" element={<GsapText />} />
           <Route path="/gsapscrollreveal" element={<GsapScrollReveal/>}/>
           <Route path="/gsaptextanimate" element={<GsapTextAnimate/>} />
+          <Route path="/gsapcustomhook" element={<GsapCustomHook/>} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>

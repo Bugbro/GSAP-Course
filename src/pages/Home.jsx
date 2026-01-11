@@ -56,6 +56,11 @@ const animations = [
     title: "GSAP Text Animate ",
     description: "Animate the text split text by text.",
     path: "/gsaptextanimate"
+  },
+  {
+    title: "GSAP Custom hook",
+    description: "Create a custom hook in which pass the text reference it animates",
+    path: "/gsapcustomhook"
   }
 ];
 
